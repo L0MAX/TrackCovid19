@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event"
+            android:id="@+id/event"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ID"
+            android:id="@+id/id"
+            android:layout_below="@+id/event"
+            android:textAlignment="center" />
+
+        <com.github.curioustechizen.ago.RelativeTimeTextView
+            android:id="@+id/timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/id"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:id="@+id/data"
+            android:layout_below="@+id/timestamp"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

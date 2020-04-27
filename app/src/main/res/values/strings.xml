@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Covid19-Tracker</string>
+    <string name="title_home">Covid19 Pandemic Tracker</string>
+    <string name="title_notifications">News and Updates</string>
+    <string name="title_country">Affected Countries</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_dash">Dashboard</string>
+    <string name="title_homes">Home</string>
+    <string name="title_counts">Country</string>
+    <string name="title_news">Updates</string>
+    <string name="show_less">Show Less</string>
+    <string name="show_more">Show More</string>
+    <string name="menu_max_lines">Max of 2 lines</string>
+    <string name="menu_max_chars">Max of 62 chars</string>
+
+
+</resources>
